@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 84px 0;
+}
+
+.container input {
+    width: 50%;
+    font-size: 16px;
+
+    background-color: #e6e6e6;
+    padding: 24px;
+    border-radius: 5px;
+    border: none;
+    margin: 24px 0 0 0 ;
+}
+
+.container button {
+    width: 50%;
+    font-size: 16px;
+
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+
+    background-color: #ea46ca;
+    color: #fff;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.container button:hover {
+    background-color: #cf3bb2;
+}
